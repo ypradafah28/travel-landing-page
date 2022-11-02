@@ -5,6 +5,7 @@ import Destinasi from './components/destinasi'
 import Wisata from './components/wisata'
 import Transport from './components/transport'
 import Company from './components/company'
+import Contact from './components/contact'
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </section>
         <section>
           <Company />
+        </section>
+        <section>
+          <Contact />
         </section>
       </main>
     </div>
